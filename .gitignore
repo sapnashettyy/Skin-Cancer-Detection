@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Datasets and checkpoints
+data/
+datasets/
+checkpoints/
+melanoma_checkpoints/
+model_checkpoints/
+
+# Large trained models — keep out of Git for now
+*.h5
+*.keras
+
+# Temporary files
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
